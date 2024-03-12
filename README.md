@@ -49,3 +49,15 @@ fordgobike_df['start_day_of_week'] = fordgobike_df['start_time'].dt.day_name()
 days_of_week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 fordgobike_df['start_day_of_week'] = pd.Categorical(fordgobike_df['start_day_of_week'], categories=days_of_week, ordered=True)
 fordgobike_df['rider_age'] = 2019 - fordgobike_df['member_birth_year']
+
+## Analysis Highlights
+
+- **Age Distribution of Riders:** A histogram visualizes the age distribution, showing a majority of riders are between 24 to 40 years old, emphasizing biking as a physically active transportation mode preferred by younger demographics.
+
+- **Average Trip Duration Across User Types and Genders:** Clustered bar charts reveal 'Customer' users have longer bike trips than 'Subscriber' users, with the 'Other' gender category showing the longest average trip durations among all.
+
+- **User Age and Trip Duration Variations:** Violin charts provide insights into the variation in rider age and trip duration, highlighting differences based on user type, gender, and bike-sharing preferences, with 'Customer' users generally being older and having longer trips.
+
+## Conclusions
+
+This analysis sheds light on the bikeshare system's usage patterns, particularly the influence of age, user type, and gender on ride durations and preferences. It reveals that younger individuals predominantly use the service, with significant variations in usage patterns between subscribers and customers, as well as among different gender groups.
