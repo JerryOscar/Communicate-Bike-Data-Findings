@@ -28,13 +28,3 @@ The data preparation steps involved cleaning the dataset and preparing it for an
 ## Conclusions
 
 This analysis sheds light on the bikeshare system's usage patterns, particularly the influence of age, user type, and gender on ride durations and preferences. It reveals that younger individuals predominantly use the service, with significant variations in usage patterns between subscribers and customers, as well as among different gender groups.
-
-## Submission Details
-
-For submissions, include both the notebook files (.ipynb) and their exported HTML or PDF versions. If submitting via a classroom workspace, follow the provided instructions for submission options. Ensure that your submission is well-organized and includes all relevant analyses, visualizations, and a thorough discussion of your findings.
-
-For more detailed guidance on submissions and formatting your reports, refer to [Submission Guidelines](#). (Note: Replace the placeholder link with the actual link to submission guidelines provided by your classroom workspace or course instructor.)
-
-Remember to adhere to best practices in data analysis and presentation. Ensure your visualizations are clear and effectively communicate your findings. The quality of your insights and the clarity of your presentation will significantly impact the assessment of your work.
-
-Good luck with your submission!
